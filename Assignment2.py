@@ -1,9 +1,10 @@
 import math
 import sys
+
 from databaseFunc import databaseNeeds
 from datetime import datetime
 URI = "mongodb://localhost:27017/"
-
+x = 1
 def shortestDistance(x1, y1, x2, y2):
 
     try:
@@ -105,10 +106,10 @@ def pickAFunc():
         retirementSaveGoal = input("what is your retirement saving goal?")
         retirement(age, annualSalary, percentSaved, retirementSaveGoal)
         pickAFunc()
-    elif (funcOption == '0'):
-            sys.exit()
+    elif (funcOption == 0):
+
+        sys.exit()
     else:
         pickAFunc()
-
 
 pickAFunc()
