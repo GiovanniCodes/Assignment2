@@ -31,7 +31,7 @@ pipeline {
            steps {
               
                 sh 'pip install --user -r req.txt'
-                sh 'docker-compose up'
+                sh 'pthon flask_python.py'
                 sh 'python flask_unit_test.py'
 
 
