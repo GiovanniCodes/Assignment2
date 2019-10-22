@@ -5,11 +5,11 @@ Open the command line and open folder containing repository <br />
 * docker-compose up <br />
 
 ## Then run the files needed <br />
-* ./Assignment2.py <br />
-* ./Assignment2_test_doubles.py <br />
-* ./flask_python.py </br>
+* python Assignment2.py <br />
+* python Assignment2_test_doubles.py <br />
+* python flask_python.py </br>
 (Go to localhost:5000/retirement or localhost:5000/distance to either GET/POST, GET retrieves values stored from running Assignment2 and POST just return that you attempted to POST information) <br />
-* ./flask_unit_test.py <br />
+* python flask_unit_test.py <br />
 ## To check for persistence </br>
 * Run docker-compose down (This will close the container and destroy everything but the volume stored)</br>
 * Run docker-compose up and check if the test and files still run. See if your data is still being printed.
