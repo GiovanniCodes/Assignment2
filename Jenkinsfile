@@ -31,7 +31,7 @@ pipeline {
            steps {
               
                 sh 'pip install --user -r req.txt'
-                sh 'python flask_python.py && python flask_unit_test.py'
+                sh 'python flask_unit_test.py'
 
 
                 
