@@ -7,7 +7,7 @@ Open the command line and open folder containing repository <br />
 ## Then run the files needed <br />
 * ./Assignment2.py <br />
 * ./Assignment2_test_doubles.py <br />
-* ./flask_python.py <br />
+* ./flask_python.py (Go to localhost:5000/retirement or localhost:5000/distance to either GET/POST, GET retrieves values stored from running Assignment2 and POST just return that you attempted to POST information <br />
 * ./flask_unit_test.py <br />
 ## To check for persistence </br>
 * Run docker-compose down (This will close the container and destroy everything but the volume stored)</br>
