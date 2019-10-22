@@ -2,7 +2,7 @@ pipeline {
     agent {docker {image 'python:3.7.2' }}
     
     environment {
-        PATH = "$PATH:/Users/giovannigaspard/PycharmProjects/Assign2/"
+        PATH = "$PATH:/usr/local/bin"
     }
     stages {
         stage('Build') {
