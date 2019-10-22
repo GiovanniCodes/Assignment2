@@ -1,6 +1,6 @@
 # Assignment2
 Open the command line and open folder containing repository <br />
-## Run following Commands: <br />
+## Run the following Commands: <br />
 * pip install --user -r req.txt <br />
 * docker-compose up <br />
 
