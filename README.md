@@ -4,7 +4,7 @@ Open the command line and open folder containing repository <br />
 * pip install --user -r req.txt <br />
 * docker-compose up <br />
 
-## Then run the files needed <br />
+## Then run the files needed(In another Terminal) <br />
 * python Assignment2.py <br />
 * python Assignment2_test_doubles.py <br />
 * python flask_python.py </br>
